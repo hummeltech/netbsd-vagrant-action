@@ -12,7 +12,7 @@ This action allows the running of command-line programs via the `bash` shell of 
 1. Provision a `NetBSD VM` using the specified `box` (with 2 CPUs & 2GB of RAM)
     ```yaml
     - name: Provision VM
-      uses: hummeltech/netbsd-vagrant-action@v2
+      uses: hummeltech/netbsd-vagrant-action@v3
       with:
         box: generic/netbsd9
         cpus: 2
